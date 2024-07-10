@@ -103,7 +103,7 @@ body{
     text-shadow: 2px 2px #1d1d1d69;
 }
 
- #home, #about{
+ #home, #about, #projets, #contact{
     background-image: url("img19.jpg");
     background-attachment: fixed;
     background-position: fixed;
@@ -116,7 +116,7 @@ body{
     transition: all 1s;
  }
 
- #home:hover, #about:hover{
+ #home:hover, #about:hover, #projects:hover, #contact:hover{
     background-image: url("pa.jpg");
     background-attachment: fixed;
     background-position: fixed;
@@ -182,7 +182,7 @@ body{
    text-shadow: 2px 2px #1d1d1d69;
 }
 
-#projects, #contact{
+/* #projects, #contact{
    background-image: url("img19.jpg");
    background-attachment: fixed;
    background-position: fixed;
@@ -203,7 +203,7 @@ body{
    background-repeat: no-repeat;
    color: #e6fcff;
    cursor: default;
-}
+} */
 
 #projects h1{
    margin: 9px -30px;
@@ -221,7 +221,7 @@ body{
    justify-items: center;
    align-items: center;
    justify-content: space-between;
-   transition: all 1.6s;
+   transition: all ease 1.6s;
 }
 
 #projects .image:hover{
@@ -237,7 +237,7 @@ body{
    border-radius: 45px;
    width: 270px;
    height: 254px;
-   transition: all .9s;
+   transition: all ease .9s;
    border: 4px solid rgba(17, 27, 165, 0);
 }
 
@@ -321,6 +321,7 @@ body{
    border: solid rgba(14, 14, 14, 0.671) 2px;
    border-radius: 6px;
    transition: all .9s;
+   border-decoration: none;
 }
 
 #contact input:hover, textarea:hover{
