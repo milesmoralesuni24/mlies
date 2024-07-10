@@ -182,7 +182,7 @@ body{
    text-shadow: 2px 2px #1d1d1d69;
 }
 
-/* #projects, #contact{
+ #projects, #contact{
    background-image: url("img19.jpg");
    background-attachment: fixed;
    background-position: fixed;
@@ -203,7 +203,7 @@ body{
    background-repeat: no-repeat;
    color: #e6fcff;
    cursor: default;
-} */
+} 
 
 #projects h1{
    margin: 9px -30px;
