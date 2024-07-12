@@ -103,7 +103,7 @@ body{
     text-shadow: 2px 2px #1d1d1d69;
 }
 
- #home, #about, #projects, #contact{
+ #home, #about, #contact{
     background-image: url("img19.jpg");
     background-attachment: fixed;
     background-position: fixed;
@@ -116,7 +116,7 @@ body{
     transition: all 1s;
  }
 
- #home:hover, #about:hover, #projects:hover, #contact:hover{
+ #home:hover, #about:hover, #contact:hover{
     background-image: url("pa.jpg");
     background-attachment: fixed;
     background-position: fixed;
@@ -183,14 +183,14 @@ body{
 }
 
  #projects{
-   background-image: url("img19.jpg");
+   background-image: url("pa.jpg");
    background-attachment: fixed;
    background-position: fixed;
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 25px;
    color: rgba(240, 248, 255, 0.959);
-   padding: 4%;
+   padding: 4% 7%;
    margin: 20px;
    transition: all 1s;
 }
